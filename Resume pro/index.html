@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abhishek - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Abhishek's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="first">
+      <div class="leftsection">
+        Hi, my name is <span class="purple">Abhishek</span>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+        
+        <div class="button-group">
+          <button class="cta">Download Resume</button>
+          <a href="https://github.com/ShejwalAbhishek" target="_blank" class="github-btn">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="rightsection">
+        <img src="bg.png" alt="developer" />
+      </div>
+    </section>
+
+    <hr />
+
+    <section class="second">
+      <span class="text-gray">What I have done so far</span>
+      <h1>Achievements</h1>
+
+      <div class="achievements">
+        <div class="achievement-card">
+          <h3>🏅BGMI E-Gamming Tournament</h3>
+          <p>Secured first position as a team in E-Gamming Tournament.</p>
+        </div>
+        <div class="achievement-card">
+          <h3>📜 Successfully participated in Blind Programming</h3>
+          <p>participated in blind programming organized by Sunstone .</p>
+        </div>
+        <div class="achievement-card">
+          <h3>💼 Certification in Modern Database System</h3>
+          <p>Successfully completed the course 'Introduction to Modern Database System' by Saylor Academy.</p>
+        </div>
+        
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Web Designer', 'Full Stack Developer', 'Video Editor'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
